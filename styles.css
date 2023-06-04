@@ -8,10 +8,25 @@
   box-sizing: border-box;
 }
 
+.header-container {
+  border-bottom: 0.666667px solid rgb(233, 236, 239);
+  min-height: 50px;
+}
+
+.header-div {
+  margin: 0px 48px;
+}
+
+.heading {
+  font-family: Inter;
+  font-size: 30px;
+  padding: 10px 20px;
+}
+
 .herogrid {
   display: grid;
   grid-template-columns: 70% 30%;
-  margin: 10px 31px 50px;
+  margin: 0px 31px 50px;
   padding: 0 20px;
 }
 
@@ -237,7 +252,7 @@
 @media only screen and (max-width: 1021px) {
   .herogrid {
     grid-template-columns: 1fr;
-    margin: 50px 0 50px;
+    margin: 5px 0 50px;
     padding: 0 0px;
   }
   .p-post-container {
@@ -245,6 +260,10 @@
     margin: 10px 30px 50px;
     padding: 0 10px;
     row-gap: 20px;
+  }
+
+  .header-container {
+    text-align: center;
   }
 }
 
